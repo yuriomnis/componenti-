@@ -16,9 +16,9 @@ export default function Home() {
       <main>
         <SearchAppBar className={styles.navbar} />
 
-        <Container className={styles.prova} fixed maxWidth="">
+        <Container className={styles.prova} fixed>
           <Grid container spacing={2}>
-            <Grid items xs={2}>
+            <Grid items xs={12} md={3}>
               <MediaCard
                 immagine="/images/4090.jpg"
                 testo="scheda video"
@@ -26,7 +26,7 @@ export default function Home() {
                 link="/schedavideo"
               />
             </Grid>
-            <Grid items xs={2}>
+            <Grid items xs={12} md={3}>
               <MediaCard
                 immagine="/images/alimentatore.jpg"
                 testo="alimentatore"
@@ -34,7 +34,7 @@ export default function Home() {
                 link="/alimentatore"
               />
             </Grid>
-            <Grid items xs={2}>
+            <Grid items xs={12} md={3}>
               <MediaCard
                 immagine="/images/case.jpg"
                 testo="case"
@@ -42,7 +42,7 @@ export default function Home() {
                 link="/case"
               />
             </Grid>
-            <Grid items xs={2}>
+            <Grid items xs={12} md={3}>
               <MediaCard
                 immagine="/images/dissipatore.jpg"
                 testo="dissipatore"
@@ -50,7 +50,7 @@ export default function Home() {
                 link="/dissipatore"
               />
             </Grid>
-            <Grid items xs={2}>
+            <Grid items xs={12} md={3}>
               <MediaCard
                 immagine="/images/i9.jpg"
                 testo="processore"
@@ -58,7 +58,7 @@ export default function Home() {
                 link="/processore"
               />
             </Grid>
-            <Grid items xs={2}>
+            <Grid items xs={12} md={3}>
               <MediaCard
                 immagine="/images/madre.jpg"
                 testo="scheda madre"
@@ -68,7 +68,7 @@ export default function Home() {
             </Grid>
             <br></br>
             <br></br>
-            <Grid items xs={2}>
+            <Grid items xs={12} md={3}>
               <MediaCard
                 immagine="/images/ram.jpg"
                 testo="ram"
@@ -76,7 +76,7 @@ export default function Home() {
                 link="/ram"
               />
             </Grid>
-            <Grid items xs={2}>
+            <Grid items xs={12} md={3}>
               <MediaCard
                 immagine="/images/ssd.jpg"
                 testo="ssd"
