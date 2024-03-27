@@ -28,7 +28,7 @@ export default function Home() {
       <center>
         <div ClassName="link">
           <h1>
-            <Link href="/">TORNA ALLA LOBBY</Link>
+            <Link href="/">TORNA ALLA LOBBYy</Link>
           </h1>
         </div>
       </center>
